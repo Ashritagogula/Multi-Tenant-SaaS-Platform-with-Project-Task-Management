@@ -1,0 +1,148 @@
+/* Page layout */
+.projects-page {
+  padding: 24px;
+  background: #f4f6fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+
+/* Header */
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.projects-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Filters */
+.projects-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.projects-filters input,
+.projects-filters select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Card */
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Description */
+.project-desc {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Meta */
+.project-meta {
+  font-size: 13px;
+  color: #6b7280;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Status badge */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.status-badge.active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.archived {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.completed {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+/* Actions */
+.project-actions {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.btn-primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+}
+
+.btn-warning {
+  background: #fde68a;
+}
+
+.btn-danger {
+  background: #fecaca;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Info text */
+.info-text {
+  margin-top: 20px;
+  color: #6b7280;
+}

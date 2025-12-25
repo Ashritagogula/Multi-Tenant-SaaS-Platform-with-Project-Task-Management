@@ -1,0 +1,150 @@
+.project-details-page {
+  padding: 24px;
+  background: #f4f6fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+
+/* Header */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-header h2 {
+  margin: 0;
+}
+
+.project-description {
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+/* Tasks header */
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Tasks */
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-card {
+  background: white;
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card h4 {
+  margin: 0;
+}
+
+/* Meta */
+.task-meta {
+  margin: 8px 0;
+  font-size: 13px;
+  display: flex;
+  gap: 16px;
+  color: #6b7280;
+}
+
+/* Priority */
+.priority {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.priority.low {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.priority.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority.high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Status badge */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.status-badge.todo {
+  background: #e5e7eb;
+}
+
+.status-badge.in_progress {
+  background: #fde68a;
+}
+
+.status-badge.completed {
+  background: #dcfce7;
+}
+
+/* Actions */
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Buttons */
+button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+}
+
+.btn-warning {
+  background: #fde68a;
+}
+
+.btn-danger {
+  background: #fecaca;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Info */
+.info-text {
+  color: #6b7280;
+  margin-top: 20px;
+}

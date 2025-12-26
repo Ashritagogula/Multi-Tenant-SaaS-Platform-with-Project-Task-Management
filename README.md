@@ -169,3 +169,6 @@ Through this project, learners gain practical experience with:
 - Using JWT for secure authentication
 - Managing projects and tasks in a real-world SaaS context
 - Deploying full-stack applications using Docker and Docker Compose
+## 📝 Final Notes
+
+This project is structured to balance simplicity with real-world relevance. It serves as a strong foundation for understanding SaaS system design and can be extended with advanced features such as monitoring, rate limiting, and CI/CD integration.

@@ -183,7 +183,7 @@ Docker-based deployment was selected for its efficiency, portability, and indust
 **Conclusion**
 
 The chosen technology stack provides a balanced combination of scalability, security, performance, and ease of development. Each technology was selected after considering viable alternatives and evaluating project-specific requirements. This stack supports the development of a production-ready multi-tenant SaaS application while remaining flexible for future enhancements.
-
+“Choosing the correct multi-tenancy strategy is critical for ensuring security, scalability, performance, and long-term maintainability.”
 
 ### 1. Explain WHY each technology was chosen
 

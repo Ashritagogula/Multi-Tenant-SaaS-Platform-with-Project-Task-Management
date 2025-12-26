@@ -9,6 +9,13 @@ This project is designed for **students, junior developers, and evaluators** to 
 
 ---
 
+## 🎥 Demo Video
+
+A complete walkthrough of the Multi-Tenant SaaS Platform, including features, architecture, and functionality, is available in the demo video below:
+
+▶️ https://youtu.be/l2O9fZi4UwE
+
+
 ## ✨ Features
 
 - Multi-tenant architecture with tenant isolation

@@ -316,6 +316,12 @@ Passwords are protected using secure cryptographic hashing techniques. Instead o
 
 API security measures are implemented to protect backend services from unauthorized access and attacks. All sensitive API endpoints require valid authentication tokens, and unauthorized requests are immediately rejected. Input validation is applied to all API requests to prevent injection attacks and malformed data. Additionally, rate limiting can be used to control the number of requests made by a user within a given time frame, reducing the risk of abuse and denial-of-service attacks. These measures ensure that the APIs remain secure, reliable, and resilient.
 
+## Scalability and Performance Notes
+
+- Stateless APIs allow horizontal scaling across multiple instances
+- Indexing tenant_id improves query performance in shared databases
+- JWT-based authentication reduces server-side overhead
+- Docker containers simplify scaling and deployment consistency
 
 ## Key Benefits Summary
 

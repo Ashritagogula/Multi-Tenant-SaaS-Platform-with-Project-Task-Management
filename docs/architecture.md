@@ -3,8 +3,7 @@
 ---
 
 ## 1. System Architecture Diagram
-
-The system architecture diagram represents a high-level view of how different components of the multi-tenant SaaS application interact with each other. It shows the flow of requests from the client to the backend and how authentication and data storage are handled.
+The system architecture diagram provides a clear high-level view of how different components of the multi-tenant SaaS application interact with each other.
 
 ### Components Overview
 

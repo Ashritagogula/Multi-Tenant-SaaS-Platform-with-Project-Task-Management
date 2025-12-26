@@ -1,4 +1,5 @@
-# Multi-Tenancy Analysis
+# Multi-Tenancy Strategy Analysis
+
 
 Multi-tenancy is a core concept in Software as a Service (SaaS) applications where a single application instance serves multiple organizations, known as tenants. Each tenant must have complete data isolation so that no organization can access another organization’s data. Choosing the correct multi-tenancy strategy is critical for security, scalability, performance, and maintenance.
 

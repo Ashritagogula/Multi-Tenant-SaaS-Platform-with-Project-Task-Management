@@ -42,7 +42,7 @@ Disadvantages:
 
 ## 2. Shared Database + Separate Schema (per tenant)
 
-In this approach, all tenants share the same database server, but each tenant has its own database schema. Each schema contains its own tables for users, projects, and tasks.
+In this approach, all tenants share the same database server, but each tenant has its own database schema. Each schema contains its own tables for users, projects.
 
 **How it works:**
 When a tenant is created, a new schema is generated. All queries are executed against that tenant’s schema. This provides a logical separation of data while still sharing the same database server.

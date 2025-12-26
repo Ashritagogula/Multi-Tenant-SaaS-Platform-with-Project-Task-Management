@@ -22,8 +22,8 @@ This project is designed for **students, junior developers, and evaluators** to 
 - Health check endpoint
 
 ---
+## 🛠 Technology Stack Overview
 
-## 🛠 Technology Stack
 
 ### Frontend
 ```text
@@ -154,3 +154,8 @@ GET /api/projects
 POST /api/projects/:projectId/tasks
 GET /api/projects/:projectId/tasks
 ```
+
+## Features
+- Multi-tenant architecture
+- Role-based access
+- Project & task management

@@ -315,3 +315,12 @@ Passwords are protected using secure cryptographic hashing techniques. Instead o
 **5. What API security measures are implemented?**
 
 API security measures are implemented to protect backend services from unauthorized access and attacks. All sensitive API endpoints require valid authentication tokens, and unauthorized requests are immediately rejected. Input validation is applied to all API requests to prevent injection attacks and malformed data. Additionally, rate limiting can be used to control the number of requests made by a user within a given time frame, reducing the risk of abuse and denial-of-service attacks. These measures ensure that the APIs remain secure, reliable, and resilient.
+
+
+## Key Benefits Summary
+
+- Strong tenant isolation using tenant_id based filtering
+- Cost-effective architecture using shared infrastructure
+- Scalable design suitable for growing SaaS platforms
+- Clear separation of authentication, authorization, and business logic
+- Industry-aligned multi-tenant architecture practices

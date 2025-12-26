@@ -62,7 +62,8 @@ PostgreSQL Database
 
 Each tenant is logically isolated using tenant_id across all core tables.
 
-# Installation & Setup
+# Installation & Setup Guide
+
 ✅ Prerequisites
 ```text
 Docker (v20+)

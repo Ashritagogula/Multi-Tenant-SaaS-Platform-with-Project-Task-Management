@@ -4,7 +4,7 @@
 
 **Multi-Tenant SaaS Platform** is a full-stack web application designed to support multiple organizations (tenants) within a single system. Each tenant operates in isolation while sharing a common infrastructure.
 
-This project is intended for **students, junior developers, and evaluators** to understand real-world SaaS architecture using modern technologies.
+This project is intended for **students, junior developers** to understand real-world SaaS architecture using modern technologies.
 
 ---
 

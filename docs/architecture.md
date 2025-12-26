@@ -153,5 +153,4 @@ The API architecture defines all backend endpoints exposed by the system. APIs a
 ---
 
 ## Summary
-
-This architecture design ensures a clear separation of responsibilities between system components. Tenant isolation, secure authentication, role-based access control, and scalable API design form the foundation of the multi-tenant SaaS platform.
+This architecture design ensures a clear separation of responsibilities, strong tenant isolation, secure authentication, and scalable API design for the multi-tenant SaaS platform.

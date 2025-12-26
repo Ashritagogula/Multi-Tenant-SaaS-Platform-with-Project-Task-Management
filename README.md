@@ -161,3 +161,11 @@ GET /api/projects/:projectId/tasks
 - Multi-tenant architecture
 - Role-based access
 - Project & task management
+## 📚 Learning Outcomes
+
+Through this project, learners gain practical experience with:
+- Designing and implementing multi-tenant SaaS architectures
+- Applying role-based access control and tenant isolation
+- Using JWT for secure authentication
+- Managing projects and tasks in a real-world SaaS context
+- Deploying full-stack applications using Docker and Docker Compose

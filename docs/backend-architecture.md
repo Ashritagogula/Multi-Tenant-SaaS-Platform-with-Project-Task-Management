@@ -7,7 +7,7 @@ This step focuses on defining a clean, secure, and scalable backend architecture
 
 ## 1. Authentication Middleware
 
-The authentication middleware is responsible for validating user identity before allowing access to protected API endpoints.
+The authentication middleware is responsible for securely validating user identity before allowing access to protected API endpoints.
 
 ### Responsibilities
 - Extract the JWT token from the `Authorization` header.
